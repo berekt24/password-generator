@@ -23,13 +23,13 @@ var confirmUpperCase;
 var confirmLowerCase;
 
 function password() {
-  var confirmlength = (prompt("How many characters do you want your password to have?"));
+   confirmLength = (prompt("How many characters do you want your password to have?"));
 
-  while(confirmLength >= 7 || confirmLength <= 129) {
+  while(parseInt(confirmLength) <= 7 || parseInt(confirmLength) >= 129) {
     alert("Password length must be between 8-128 characters try again");
   }
 
-  alert("Your password will have ${confirmLength} characters");
+  alert(`Your password will have ${confirmLength} characters`);
 
   var confirmNumericCharacter = confirm("Click OK to confirm if you would like to have numbers");
   var confirmLowerCase = confirm("Click OK if you would like to have lowercase letters");
