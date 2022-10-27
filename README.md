@@ -7,6 +7,6 @@ The purpose of this assignment was to generate a random password generator using
 
 ![Password-generator](https://user-images.githubusercontent.com/114173723/198165240-af250198-f612-45f5-bbbc-8e942d57428f.png)
 
-##Link
+## Link
 
 https://berekt24.github.io/password-generator/
