@@ -29,7 +29,7 @@ function generatePassword() {
     alert("Password length must be between 8-128 characters try again");
   }
 
-  alert(`Your password will have ${confirmLength} characters`);
+  alert("Your password will have " + confirmLength);
 
   var confirmNumericCharacter = confirm("Click OK to confirm if you would like to have numbers");
   var confirmLowerCase = confirm("Click OK if you would like to have lowercase letters");
@@ -69,4 +69,3 @@ function generatePassword() {
 }
 
 
-generatePassword();
